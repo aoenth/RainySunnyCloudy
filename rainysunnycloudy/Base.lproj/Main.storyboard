@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -26,22 +26,22 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="300"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="I78-mT-QgH">
-                                        <rect key="frame" x="20" y="20" width="249.5" height="260"/>
+                                        <rect key="frame" x="20" y="20" width="280" height="260"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wednesday, September 21, 2017" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="ZJO-ej-yxH">
-                                                <rect key="frame" x="0.0" y="0.0" width="249.5" height="42.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="280" height="42.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="21°C" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="18" translatesAutoresizingMaskIntoConstraints="NO" id="0j4-jj-5oz">
-                                                <rect key="frame" x="0.0" y="42.5" width="249.5" height="175"/>
+                                                <rect key="frame" x="0.0" y="42.5" width="280" height="175"/>
                                                 <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="62"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Toronto, Canada" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="KKl-fh-vzb">
-                                                <rect key="frame" x="0.0" y="217.5" width="249.5" height="42.5"/>
+                                                <rect key="frame" x="0.0" y="217.5" width="280" height="42.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
@@ -70,6 +70,7 @@
                                 <color key="backgroundColor" red="0.36692246090975572" green="0.73957487093653107" blue="0.91683851522842641" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="Ir1-MF-Ee2" secondAttribute="trailing" constant="20" id="24c-ER-5rb"/>
+                                    <constraint firstItem="I78-mT-QgH" firstAttribute="centerX" secondItem="smE-lQ-SbB" secondAttribute="centerX" id="4i8-P6-kcM"/>
                                     <constraint firstAttribute="height" constant="300" id="5W9-qy-OFT"/>
                                     <constraint firstItem="I78-mT-QgH" firstAttribute="top" secondItem="smE-lQ-SbB" secondAttribute="top" constant="20" id="cp6-wI-uvM"/>
                                     <constraint firstItem="UFa-3M-OUm" firstAttribute="centerY" secondItem="0j4-jj-5oz" secondAttribute="centerY" id="feT-Cm-67u"/>
